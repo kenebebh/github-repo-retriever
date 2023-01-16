@@ -17,7 +17,7 @@ function Fallback({ error, resetErrorBoundary }) {
       <pre>{error.message}</pre>
       <button
         onClick={resetErrorBoundary}
-        className="border-2 px-4 py-1 border-blue-400 shadow-lg hover:-translate-y-1 hover:cursor-pointer"
+        className="border-2 px-4 py-1 border-blue-400 shadow-lg hover:-translate-y-1 hover:cursor-pointer transition-all"
       >
         Try again
       </button>
