@@ -37,8 +37,8 @@ function App() {
             >
               <Username.Provider value={{ username, setUsername }}>
                 <Routes>
-                  <Route path="/" element={<Repos />} />
-                  <Route path="/repos" element={<Home />}>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/repos" element={<Repos />}>
                     <Route path=":repoName" element={<DetailsDisplay />} />
                   </Route>
                   <Route path="*" element={<NotFound />} />
