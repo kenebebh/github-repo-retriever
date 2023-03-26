@@ -42,7 +42,7 @@ const Repos = () => {
           name="description"
           content="All users github repositories are displayed here"
         ></meta>
-        <link rel="canonical" href="/repos" />
+        <link rel="canonical" href="https://github-repo-retriever.netlify.app/" />
       </Helmet>
       {error ? (
         <div className="text-white/90">
